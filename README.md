@@ -1,2 +1,2 @@
-# ReadNotes
-一些笔记整理
+# ReadingNotes
+reading notes
