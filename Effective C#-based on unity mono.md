@@ -137,8 +137,6 @@ C#编译器将生成IL，并放在程序集中，随后JIT将根据需要逐一�
 
 ## 8.选择变量初始化而不是赋值语句，类似C++
 
-## 8.选择变量初始化而不是赋值语句，类似C++
-
 ### 初始化器将在所有构造函数执行之前执行
 
 -     public class Dog
@@ -209,11 +207,11 @@ C#编译器将生成IL，并放在程序集中，随后JIT将根据需要逐一�
         }
     }
 
-		- public static void Main()
-    {
-        new Person { FirstName = "Paisley", LastName = "Smith", City = "Dallas" };
-        new Dog(2) { Name = "Mike" };
-    }
+	public static void Main()
+    	{
+        	new Person { FirstName = "Paisley", LastName = "Smith", City = "Dallas" };
+        	new Dog(2) { Name = "Mike" };
+    	}
 
 - public class BaseballTeam
     {
